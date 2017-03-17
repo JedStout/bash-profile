@@ -1,0 +1,163 @@
+<OS_SITE_ELEMENT ID=SITE-DOCTYPE>
+    <html>
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Events by O - CHANGEME_title</title>
+        <link rel="canonical" src="CHANGEME_vanityurl">
+        <meta name="description" content="CHANGEME_description">
+        <meta name="keywords" content="Events by O">
+        <OS_SITE_ELEMENT ID=SITE_HEAD_S>
+            <OS_SITE_ELEMENT ID=CUR_COL_01_CSS>
+                <style>
+                #top-rail-nav>li>a {
+                    font-size: 11px;
+                }
+
+                .page-wrapper.dual-width {
+                    max-width: 960px;
+                    min-width: 960px;
+                    width: 960px;
+                }
+
+                .curated-products {
+                    margin: 0px;
+                }
+
+                .curated-hd {
+                    height: 360px;
+                    background: url("<OS_IMAGE_URL>img/mxc/CHANGEME_bnr.jpg") center top no-repeat;
+                }
+
+                .curated-hd-wrap {
+                    padding-top: 35px;
+                }
+
+                .curated-hd h1 {
+                    float: none;
+                    text-align: center;
+                    background: transparent;
+                    color: #806c67;
+                    line-height: 100%;
+                }
+
+                .curated-hd h1 sup {
+                    font-size: 50%;
+                }
+
+                .curated-hd h1 span {
+                    font-size: 85.714%;
+                    line-height: 100%;
+                    letter-spacing: 1px;
+                    text-transform: none;
+                    font-style: italic;
+                    color: #b06934;
+                }
+
+                .curated-hd-subhead {}
+
+                .curated-hd p {
+                    text-align: center;
+                    padding: 10px 40px;
+                    background: transparent;
+                    color: #797979;
+                }
+
+                #cur-bottom-CHANGEME {
+                    display: none;
+                }
+                /********** Blurbs *********/
+
+                .text-left-single span,
+                .text-right-single span {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                .text-left-single h4,
+                .text-right-single h4 {
+                    margin-top: -35px;
+                    color: #ff675c;
+                }
+
+                li.single-blurb {
+                    background: transparent;
+                }
+
+                .ce-btmbnr img {
+                    width: 100%;
+                    height: 150px;
+                    margin-bottom: 20px;
+                }
+
+                .ce-btmbnr img {
+                    width: 100%;
+                    height: 150px;
+                    margin-bottom: 20px;
+                }
+                </style>
+    </head>
+
+    <body>
+        <div id="search-nav-page" class="page-wrapper dual-width">
+            <div id="hd">
+                <OS_SITE_ELEMENT ID=SITE_HEADER_S>
+            </div>
+            <!-- /#hd-->
+            <div id="bd" data-twitter-url="CHANGEME_vanityurl">
+                <div id="content-main" class="curated-product-collection">
+                    <div class="grid-container">
+                        <div class="social-container">
+                            <OS_SITE_ELEMENT ID=CUR_COL_01_SOCIAL>
+                        </div>
+                        <div class="curated-hd">
+                            <div class="curated-hd-wrap">
+                                <h1>CHANGEME_title<br /><span>CHANGEME_subtitle</span></h1>
+                                <div class="curated-hd-subhead">
+                                    <p>CHANGEME_description</p>
+                                </div>
+                            </div>
+                            <!-- /.curated-hd-wrap -->
+                        </div>
+                        <!-- /.curated-hd -->
+                        <div id="back-to-top-btn" class="back-to-top">
+                            <div class="to-top"><span class="to-top-text">Back to Top</span><i>&nbsp;</i></div>
+                        </div>
+                    </div>
+                    <!-- /.grid-container -->
+                    <ul class="curated-products">
+                        <!-- CHANGEME_addskus -->
+                        <script>
+                        var prodStaticId = CHANGEME_extrapage;
+                        </script>
+                    </ul>
+                    <!-- /.curated-products -->
+                    <!--Bottom Banner-->
+                    <div class="ce-btmbnr">
+                        <a href="CHANGEME">
+                            <img src="<OS_IMAGE_URL>img/mxc/CHANGEME.jpg"alt="CHANGEME_altText">
+                        </a>
+                    </div>
+                    <!--End Bottom Banner-->
+                    <OS_SITE_ELEMENT ID=CUR_01_BOTTOM_MODS>
+                </div>
+                <!-- /#content-main .curated-product-collection -->
+            </div>
+            <!-- /#bd -->
+            <div id="ft">
+                <OS_SITE_ELEMENT ID=SITE_FOOTER_S>
+            </div>
+            <!-- /#ft -->
+        </div>
+        <!-- /page-wrapper -->
+        <OS_SITE_ELEMENT ID=SITE_JS>
+            <OS_SITE_ELEMENT ID=CUR_01_JS>
+                <OS_OMNITURE_RENDER pageName=Curated:CHANGEME_title pageType=static appendId=F>
+                    <!--
+        STATIC PAGE ID:
+        CREATED BY:
+        DATE:
+    -->
+    </body>
+
+    </html>

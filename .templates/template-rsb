@@ -1,0 +1,60 @@
+<OS_SITE_ELEMENT ID=SITE-DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="canonical" href="">
+    <meta name="description" content="">
+    <meta name="keywords" content="Overstock.com,Overstock">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script>
+        window.disableOSProductRibbon = true;
+    </script>
+    <OS_SITE_ELEMENT ID=SITE_03_HEAD>
+    <OS_SITE_ELEMENT ID=SITE_01_RESP_HEAD>
+    <style>
+
+    @media screen and (max-width: 720px) {
+
+    }
+
+    @media screen and (max-width: 500px) {
+
+    }
+    </style>
+</head>
+<body>
+<!-- BEGIN:page-wrapper-->
+<div id="uniquePageName" class="page-wrapper">
+    <!-- #hd-->
+    <div id="hd">
+        <OS_SITE_ELEMENT ID=SITE_HEADER_S>
+    </div>
+    <!-- /#hd-->
+    <!-- #bd-->
+    <div id="bd">
+
+    </div>
+    <!-- /#bd -->
+    <!-- #ft -->
+    <div id="ft">
+        <OS_SITE_ELEMENT ID=SITE_FOOTER_S>
+    </div>
+    <!-- /#ft -->
+</div>
+<!-- /page-wrapper-->
+
+    <OS_SITE_ELEMENT ID=SITE_03_JS>
+    <OS_SITE_ELEMENT ID=SITE_01_RESP_JS>
+        <!-- Page Specific JS -->
+
+        <OS_OMNITURE_RENDER pageName=PageName appendId='F'>
+
+            <!-- PLEASE MAKE SURE TO FILL THIS OUT
+
+            STATIC PAGE ID:
+            CREATED BY:
+
+            -->
+</body>
+</html>
